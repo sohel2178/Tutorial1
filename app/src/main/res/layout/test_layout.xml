@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button One"
+        android:id="@+id/btn_one"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Two"
+        android:id="@+id/btn_two"
+        android:layout_toEndOf="@+id/btn_one"
+        android:layout_below="@id/btn_one"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_red_dark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="332dp"
+        android:text="TextView" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/top_section">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="jkfjksdjklfjksdjklf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton" />
+
+            <TextView
+                android:text="C"
+                style="@style/MyButton"
+                android:layout_height="200dp"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+
+
+
+
+
+
+
+
+</RelativeLayout>
