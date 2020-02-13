@@ -31,6 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button"
+            android:id="@+id/tv_btn_one"
             android:textSize="22sp"
             android:textColor="@android:color/white"
             android:layout_centerVertical="true"/>
@@ -54,13 +55,22 @@
 
     </RelativeLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+
+    <com.ibcs.tutorial1.MYView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="332dp"
-        android:text="TextView" />
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"/>
+
+    <com.ibcs.tutorial1.MYView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+
 
     <!--<LinearLayout
         android:layout_width="match_parent"
