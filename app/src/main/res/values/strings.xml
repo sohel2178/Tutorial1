@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Tutorial1</string>
     <string name="title">Tutorial1</string>
+    <string name="name_hint">Enter Your Name</string>
 </resources>
